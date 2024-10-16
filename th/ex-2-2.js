@@ -8,11 +8,24 @@
 
 // Start coding here
 
+function showStudentsData(studentsInfo) {
+  let result = "";
+  for (let student of studentsInfo) {
+    for (let key in student) {
+      result += `${key}: ${student[key]} \n`;
+    }
+    result += `-------------------\n`;
+  }
+  return result;
+}
+
 const studentsInfo = [
   { name: "Alice", age: 14, classNumber: 8, favoriteSubject: "Math" },
   { name: "Charlie", age: 15, classNumber: 9, favoriteSubject: "History" },
   { name: "Ethan", age: 13, classNumber: 7, favoriteSubject: "Art" },
 ];
+
+console.log(showStudentsData(studentsInfo));
 
 /*
   name: Alice 

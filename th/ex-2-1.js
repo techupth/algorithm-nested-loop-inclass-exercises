@@ -8,7 +8,23 @@
 
 // Start coding here
 
-console.log(generatePattern(3)); 
+function generatePattern(size) {
+  let result = "";
+
+  for (let i = 1; i <= size; i++) {
+    let row = "";
+    for (let j = 1; j <= size; j++) {
+      if (i <= j) {
+        row += "* ";
+      }
+    }
+    result += row + "\n";
+  }
+
+  return result;
+}
+
+console.log(generatePattern(3));
 
 /* 
 
@@ -16,10 +32,9 @@ console.log(generatePattern(3));
 * * 
 *  
 
-*/ 
+*/
 
-
-console.log(generatePattern(5)); 
+console.log(generatePattern(5));
 
 /*
 
