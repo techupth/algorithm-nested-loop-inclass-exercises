@@ -14,6 +14,8 @@ const studentsInfo = [
   { name: "Ethan", age: 13, classNumber: 7, favoriteSubject: "Art" },
 ];
 
+console.log(showStudentsData(studentsInfo));
+
 /*
   name: Alice 
   age: 14 
