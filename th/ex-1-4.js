@@ -2,7 +2,7 @@
 ให้เขียน Function ที่ชื่อว่า showStudentsData ซึ่งมีคุณสมบัติต่อไปนี้
     - รับ Parameter 1 ตัวคือ studentInfo
         1. studentInfo เป็น Array ของ Object ที่บรรจุรายชื่อนักเรียน โดย Object แต่ละอันจะมี Key 4 ตัวได้แก่  name , age,  classNumber, favoriteSubject
-    - Function นี้จะเข้าถึงข้อมูลใน products แล้ว Return ค่าออกมา
+    - Function นี้จะเข้าถึงข้อมูลใน studentInfo แล้ว Return ค่าออกมา
     - เมื่อ Algorithm นี้ทำงาน จะต้องเห็นผลลัพธ์ดังนี้
 */
 
